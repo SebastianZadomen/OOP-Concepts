@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace oppconcepts
 {
-    public static class HealthCenterUtils
+    public static class HealthCenterTools
     {
         public static double CalculateOccupancyPercentage(int totalBeds, int occupiedBeds)
         {
