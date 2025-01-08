@@ -18,7 +18,7 @@ namespace oppconcepts
         public string Name { get => name; set => name = value; }
         public string Location { get => location; set => location = value; }
         public int NumBeds { get => numBeds; set => numBeds = value; }
-        public int NumRooms { get => numRooms; set => numRooms = value; }
+        public int NumRooms { get => numRooms; set => numRooms = value; }  
         public int NumDoctors { get => numDoctors; set => numDoctors = value; }
 
         public virtual void AdmitPatient()

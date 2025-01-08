@@ -19,7 +19,7 @@ namespace oppconcepts
             this.OffersGeneralMedicalConsultation = offersGeneralMedicalConsultation;
         }
 
-        public void RealizarVacunacion()
+        public void PerformVaccination()
         {
             if (OffersVaccination)
             {
