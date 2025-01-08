@@ -41,17 +41,6 @@ namespace oppconcepts
             Console.WriteLine($"Patient discharged in {name}.");
         }
 
-        public static double CalculateOccupancyPercentage(int totalBeds, int bedsAvailable)
-        {
-            int occupiedBeds = totalBeds - bedsAvailable;
-            if (totalBeds == 0) return 0;
-            return (double)occupiedBeds / totalBeds * 100;
-        }
-        public static string GenerateCenterStatus(string name, int bedsAvailable, int doctorsAvailable, int numRooms)
-        {
-            return $"Condition of the center {name}: {bedsAvailable} beds available, available rooms {numRooms} and {doctorsAvailable} available doctors.";
-        }
-
         public abstract void PerformSurgery();
 
         public HealthCenters(string name, string location, int numBeds, int numRooms, int numDoctors)
